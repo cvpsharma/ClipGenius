@@ -1,11 +1,11 @@
 // File: pages/dashboard.js
 
 import { useEffect, useState } from 'react';
-import tools from '@/utils/tools';
-import { useUser } from '@/lib/hooks';
+import tools from '/utils/tools';
+import { useUser } from '/lib/hooks';
 import Link from 'next/link';
-import ProgressBar from '@/components/ProgressBar';
-import ProtectedRoute from '@/components/ProtectedRoute';
+import ProgressBar from '/components/ProgressBar';
+import ProtectedRoute from '/components/ProtectedRoute';
 
 const planLimits = {
   Starter: { videosPerMonth: 10 },
